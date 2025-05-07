@@ -9,7 +9,7 @@ import java.util.List;
 @Table(name="companies")
 @PrimaryKeyJoinColumn(name = "username")
 
-public class Company extends User{
+public class Company extends User {
     private String companyName;
     private String location;
 

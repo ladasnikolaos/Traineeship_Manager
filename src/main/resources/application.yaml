@@ -3,10 +3,10 @@ spring:
     url: jdbc:mariadb://localhost:3306/traineeshipdb?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: trainee_app
     password: secret
-    driver-class-name: org.mariadb.jdbc.Driver   # optional – Boot can infer it
+    driver-class-name: org.mariadb.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update            # dev only – switch to validate / none in prod
+      ddl-auto: update
     database-platform: org.hibernate.dialect.MariaDBDialect
     show-sql: true
     properties:

@@ -1,8 +1,8 @@
 package com.example.TraineeshipManager.model;
 
 public enum Role {
-    COMMITTEE,
+    ADMIN,
     STUDENT,
-    SUPERVISOR,
+    PROFESSOR,
     COMPANY;
 }
